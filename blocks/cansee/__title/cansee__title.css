@@ -1,0 +1,24 @@
+.cansee__title {
+  margin: 0;
+  max-width: 690px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  color: #fff;
+}
+
+@media screen and(max-width: 768px){
+  .cansee__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .cansee__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

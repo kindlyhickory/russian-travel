@@ -1,0 +1,20 @@
+.places__url {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aaa;
+  margin: 0;
+  text-transform: uppercase;
+  max-width: 456px;
+  margin-bottom: 12px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__url {
+    margin: 0 0 0 16px;
+  }
+}

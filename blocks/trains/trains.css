@@ -1,0 +1,44 @@
+.trains {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 92px 48px 0;
+  background-image: url("../../images/cover-trains.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-origin: content-box;
+  display: flex;
+  align-items: stretch;
+  padding-top: 92px;
+}
+
+.trains::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .trains {
+    max-width: 1024px;
+    padding: 92px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trains {
+    max-width: 768px;
+    padding: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .trains {
+    min-width: 320px;
+    padding: 64px 0 0 0;
+  }
+}

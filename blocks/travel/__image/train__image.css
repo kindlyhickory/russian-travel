@@ -1,0 +1,19 @@
+.train__image {
+  display: block;
+  max-width: 100%;
+  aspect-ratio: 984 / 615;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .train__image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .train__image {
+    margin-top: 40px;
+  }
+}
+

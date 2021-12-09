@@ -1,0 +1,30 @@
+.trains__subtitle {
+  max-width: 360px;
+  z-index: 1;
+  margin: 32px 0 0 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 635px) {
+  .trains__subtitle {
+    font-size: 25px;
+    line-height: 1.14;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .trains__subtitle {
+    margin: 16px 0 0 0;
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

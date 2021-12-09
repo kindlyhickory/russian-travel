@@ -1,0 +1,15 @@
+.places__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #fff;
+  margin: 0 0 26px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.places__text:last-child {
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.travel__caption {
+  margin: 8px 0 0 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .travel__caption {
+    margin-left: 24px
+  }
+}

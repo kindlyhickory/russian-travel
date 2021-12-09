@@ -1,0 +1,19 @@
+.places__item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+.places__item:first-child {
+  margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 320px){
+  .places__item {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}

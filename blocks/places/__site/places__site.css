@@ -1,0 +1,24 @@
+.places__site {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  text-decoration: underline;
+  margin: 0;
+  max-width: 456px;
+}
+
+@media screen and (max-width: 635px) {
+  .places__site {
+    margin: 12px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__site {
+    margin: 12px 0 0 16px;
+  }
+}
