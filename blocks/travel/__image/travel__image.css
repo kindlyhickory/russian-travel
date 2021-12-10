@@ -1,4 +1,4 @@
-.train__image {
+.travel__image {
   display: block;
   max-width: 100%;
   aspect-ratio: 984 / 615;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .train__image {
+  .travel__image {
     margin-top: 56px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .train__image {
+  .travel__image {
     margin-top: 40px;
   }
 }
