@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
   .travel__title{
     max-width: 288px;
     font-size: 40px;

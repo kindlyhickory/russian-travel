@@ -11,16 +11,23 @@
 
 @media screen and (max-width: 1120px) {
   .places__title {
-    font-size: 55px;
+    font-size: 63px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .places__title{
     max-width: 440px;
+    font-size: 72px;
   }
 }
 
+@media screen and (max-width: 910px) {
+  .places__title{
+    max-width: 440px;
+    font-size: 58px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .places__title {
