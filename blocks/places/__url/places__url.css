@@ -8,9 +8,15 @@
   margin: 0;
   text-transform: uppercase;
   max-width: 456px;
-  margin-bottom: 12px;
+  margin: 0 0 12px 0;
 }
 
+
+@media screen and (max-width: 635px) {
+  .places__url {
+    margin: 0;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .places__url {
