@@ -1,11 +1,26 @@
 .places__about {
-  display: flex;
-  flex-direction: row;
   width: 100%;
+  display: grid;
+  grid-template-columns: 46.75% 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__about {
+    grid-template-columns: 47.41% 1fr;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .places__about {
+    grid-template-columns: 47.22% 1fr;
+  }
+
 }
 
 @media screen and (max-width: 635px){
   .places__about {
+    display: flex;
     flex-direction: column;
   }
 }

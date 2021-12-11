@@ -1,5 +1,4 @@
 .places__text {
-  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -12,4 +11,10 @@
 
 .places__text:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places__text {
+    font-size: 16px
+  }
 }

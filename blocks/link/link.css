@@ -3,10 +3,6 @@
   cursor: pointer;
 }
 
-.link:hover:before {
-  opacity: 0.8;
-  cursor: pointer;
-}
 
 .link {
   transition: opacity 0.2s linear;

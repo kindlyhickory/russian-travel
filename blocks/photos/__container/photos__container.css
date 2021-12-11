@@ -1,4 +1,4 @@
-.photos__container {
+/* .photos__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, calc((100% - 48px)/4));
   grid-template-rows: repeat(auto-fit, 1fr);
@@ -25,5 +25,5 @@
   .photos__container {
     grid-template-columns: repeat(auto-fit, 288px);
   }
-}
+} */
 

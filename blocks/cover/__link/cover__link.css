@@ -1,4 +1,4 @@
-.trains__link {
+.cover__link {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,11 +8,11 @@
   text-decoration: none;
 }
 
-.trains__link::before {
+.cover__link::before {
   content: "";
   display: block;
   background-color: #2A2C2F;
-  opacity: .2;
+  opacity: .3;
   position: absolute;
   top: 0;
   left: 0;
@@ -21,9 +21,9 @@
   transition: opacity .2s linear;
 }
 
-/* .trains__link:hover::before {
+.cover__link:hover::before {
   opacity: .8;
-} */
+}
 
 
 

@@ -5,8 +5,8 @@
 @import url("../blocks/container/container.css");
 @import url("../blocks/container/_size/container_size_middle.css");
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/__container/header__container.css");
 @import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__list-item/header__list-item.css");
 @import url("../blocks/header/__languages/header__languages.css");
 @import url("../blocks/header/__language/header__language.css");
 @import url("../blocks/header/__language/_activated/header__language_activated.css");
@@ -16,17 +16,16 @@
 @import url("../blocks/travel/__image/travel__image.css");
 @import url("../blocks/travel/__caption/travel__caption.css");
 @import url("../blocks/travel/__shelf-container/travel__shelf-container.css");
-@import url("../blocks/cansee/cansee.css");
-@import url("../blocks/cansee/__title/cansee__title.css");
-@import url("../blocks/cansee/__text/cansee__text.css");
-@import url("../blocks/cansee/__statistic/cansee__statistic.css");
-@import url("../blocks/cansee/__stat/cansee__stat.css");
-@import url("../blocks/cansee/__span-accent/cansee__span-accent.css");
+@import url("../blocks/introduction/introduction.css");
+@import url("../blocks/introduction/__title/introduction__title.css");
+@import url("../blocks/introduction/__text/introduction__text.css");
+@import url("../blocks/introduction/__statistic/introduction__statistic.css");
+@import url("../blocks/introduction/__stat/introduction__stat.css");
+@import url("../blocks/introduction/__span-accent/introduction__span-accent.css");
 @import url("../blocks/photos/photos.css");
 @import url("../blocks/photos/__item/photos__item.css");
 @import url("../blocks/photos/__container/photos__container.css");
 @import url("../blocks/places/places.css");
-@import url("../blocks/places/__container/places__container.css");
 @import url("../blocks/places/__about/places__about.css");
 @import url("../blocks/places/__information/places__information.css");
 @import url("../blocks/places/__item/places__item.css");
@@ -37,18 +36,15 @@
 @import url("../blocks/places/__title/places__title.css");
 @import url("../blocks/places/__url/places__url.css");
 @import url("../blocks/places/__web/places__web.css");
-@import url("../blocks/places/__img-container/places__img-container.css");
-@import url("../blocks/trains/trains.css");
-@import url("../blocks/trains/__link/trains__link.css");
-@import url("../blocks/trains/__title/trains__title.css");
-@import url("../blocks/trains/__subtitle/trains__subtitle.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__link/cover__link.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__item/footer__item.css");
-@import url("../blocks/trains-cover/__text/trains-cover__text.css");
-@import url("../blocks/overlay/overlay.css");
 
 
 

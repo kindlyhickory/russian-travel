@@ -1,5 +1,4 @@
 .places__site {
-  font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -7,7 +6,6 @@
   color: #fff;
   text-decoration: underline;
   margin: 0;
-  max-width: 456px;
 }
 
 @media screen and (max-width: 635px) {
